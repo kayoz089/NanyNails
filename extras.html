@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicon e Ícones -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/android-chrome-512x512.png">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Fontes do Google -->
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap" rel="stylesheet">
+
+<title>Detalhes do Atendimento | Nany Nails</title>
+
+<style>
+  /* === HEADER E NAV === */
+  header {
+    background-color: #f9d5e5; /* rosa claro */
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 4px solid #eab1c7;
+    margin-bottom: 40px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #7a294d;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #c94f7c;
+    background-color: #ffffff55;
+  }
+
+  nav ul li a.active {
+    background-color: #c94f7c;
+    color: white;
+  }
+
+  header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    color: #c94f7c;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 18px;
+    color: #7a294d;
+    margin-bottom: 0;
+  }
+
+  /* === CONTAINER PRINCIPAL === */
+  .container {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 20px;
+    background-color: #fff0f5; /* rosa muito claro */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px #eec3d8;
+    font-family: 'Poppins', sans-serif;
+    color: #7a294d;
+  }
+
+  /* Títulos dentro do container */
+  .container h1 {
+    color: #c94f7c;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .container h2 {
+    color: #c94f7c;
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+
+  /* Parágrafos */
+  .container p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+    font-size: 16px;
+  }
+
+  /* Seção dias e regras */
+  .dias {
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px #eec3d8;
+  }
+
+  .dias ul {
+    margin-left: 20px;
+    list-style: disc;
+    color: #7a294d;
+    font-size: 16px;
+  }
+
+  .dias ul li {
+    margin-bottom: 8px;
+  }
+
+  /* Texto em destaque */
+  .destaque {
+    color: #c94f7c;
+    font-weight: 700;
+  }
+
+  /* Link de agendamento */
+  .dias a {
+    color: #c94f7c;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .dias a:hover {
+    text-decoration: underline;
+  }
+
+  /* Rodapé */
+  footer {
+    background-color: #f9d5e5;
+    color: #7a294d;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #eab1c7;
+    font-size: 14px;
+    font-weight: 500;
+  }
+</style>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="servicos.html">Serviços</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="extras.html" class="active">Detalhes</a></li>
+    </ul>
+  </nav>
+  <h1>Nany Nail Services🌸</h1>
+  <p>Conheça os detalhes do atendimento da Nany.</p>
+</header>
+
+<main class="container">
+  <h1>🕐 Detalhes do Atendimento</h1>
+  
+  <p>Aqui você encontra todas as informações sobre o funcionamento do estúdio da <strong>Nany</strong>.</p>
+
+  <div class="dias">
+    <h2>📅 Dias de Atendimento</h2>
+    <p>Atendimento de <span class="destaque">terça a sábado</span>, com horários agendados antecipadamente.</p>
+    <p></p>
+  </div>
+
+  <div class="dias">
+    <h2>✅ Regras Importantes</h2>
+    <ul>
+      <li>Para melhor atende-las, é necessário chegar no horário marcado, pois os agendamentos são feitos em sequência</li>
+      <li>Cancelamentos devem ser feitos com pelo menos 24h de antecedência.</li>
+      <li>Enviamos lembretes no dia anterior do atendimento e link de confirmação do procedimento.</li>
+      <li>No caso de não cancelamento ou ausência no atendimento será cobrado o valor de 50% do procedimento</li>
+    </ul>
+  </div>
+
+  <div class="dias">
+    <h2>💬 Como Agendar</h2>
+    <p>Os agendamentos são feitos exclusivamente via WhatsApp:</p>
+    <p><a href="https://wa.me/5516992643147" target="_blank">Clique aqui para agendar</a></p>
+  </div>    
+</main>
+
+<footer>
+  <p>📞 Contato: (16) 99264-3147 | 📍 Bairro Residencial José de Carlos - Rua Ana Carolina Ferreira Arandes</p>
+</footer>
+
+</body>
+</html>
