@@ -23,8 +23,3 @@ O objetivo do projeto é apresentar os serviços, dicas e informações da Nany 
 - 📱 **Responsividade** → funciona em celulares, tablets e computadores
 
 ---
-
-## ⚙️ Como rodar o projeto localmente
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/site-nany.git
